@@ -149,6 +149,12 @@ body {
 .page {
     flex: 1 1 auto;
 }
+@media screen and (max-width: 1024px) {
+    .page {
+        flex: 0 0 auto;
+    }
+}
+
 
 .page__main-block {
 }
@@ -303,12 +309,15 @@ body {
     margin: 0 -15px -30px;
     flex-wrap: wrap;
 }
+
+
+
 @media screen and (max-width: 680px) {
     .services__body {
         margin: 0 -7px -30px;
-        
     }
 }
+
 
 .services__column {
     padding: 0px 15px;
