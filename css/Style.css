@@ -167,6 +167,8 @@ body {
 }
 .page__whoweare {
 }
+.page__clients {
+}
 
 
 
@@ -726,13 +728,47 @@ body {
     letter-spacing: 0.2px;
     color: #737373;
 }
+/* -----CLIENTS----------------------------------- */
 
 
 
+.clients { 
+    padding: 58px 58px;
+}
+@media screen and (max-width: 973px) {
+    .clients { 
+        padding: 30px 0px;
+    }}
 
-/* ---------------------------------------------- */
+.clients__container {
+}
 
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.clients__item {
+    flex: 0 1 16.6667%;
+    text-align: center;
+    padding: 0 15px;
+}
+.clients__item img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 973px) {
+    .clients__item {
+        flex: 0 1 33.33%; 
+        padding: 10px 15px;
+}}
+@media screen and (max-width: 570px) {
+    .clients__item {
+        flex: 0 1 25%; 
+        padding: 10px 6px;
+}}
 
 /* ----FOOTER-------------------------------------*/
 .footer {
